@@ -1,0 +1,79 @@
+/*GLOBAL SETTINGS*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 0 auto;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/*Navigation*/
+#nav {
+  background-color: #000;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  border-bottom: 10px #3498db solid;
+  text-align: center;
+
+}
+#Navigation{
+  list-style-type: none;
+  width: 1024px;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+li {
+  display: inline;
+  padding: 0 0 0 20px;
+}
+#nav a {
+  font-family: "Lucida Sans Unicode", "Lucina Grande", sans-serif;
+  text-decoration: none;
+  color: #ededed;
+}
+#nav a: hover {color: #bdbdbd;}
+/*TOP BANNER*/
+.main-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url ("../img/milo2.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 0;
+}
+.cta-button {
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+  padding: 10px 30px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.cta-button: hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #000;
+}
+hr {
+  border: 1px solid #262626;
+}
+
+/*fonts*/
+h1 {
+  font-size: 28px;
+  color: #34495e;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
